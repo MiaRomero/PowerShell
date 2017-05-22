@@ -180,7 +180,7 @@ Describe "Feature tests for Export-Counter cmdlet" -Tags "Feature" {
             @{
                 Name = "Fails when given invalid file format"
                 FileFormat = "dat"
-                ExpectedErrorId = "CounterInvalidFormat,Microsoft.PowerShell.Commands.ExportCounterCommand"
+                ExpectedErrorId = "ParameterArgumentValidationError,Microsoft.PowerShell.Commands.ExportCounterCommand"
             }
         )
 
